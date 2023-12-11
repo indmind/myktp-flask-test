@@ -27,8 +27,8 @@ def scan():
 
     card_data = {
         "nik": "1234567890",
-        "nama": "John Doe",
-        "tempat_lahir": "Jakarta",
+        "nama": "Bima Bayu",
+        "tempat_lahir": "Blitar",
         "tanggal_lahir": "01-01-1990",
         "jenis_kelamin": "Laki-laki",
         # todo: add more data

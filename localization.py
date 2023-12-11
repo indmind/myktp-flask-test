@@ -67,9 +67,6 @@ def localize_ktp(image):
 haar_cascade = cv2.CascadeClassifier('models/haarcascade_frontalface_alt.xml')
 
 def localize_face(image):
-    mn = [5, 5, 5, 2, 5, 3, 5, 5, 5, 5, 5]  # minNeighbors
-    sc = [1.2, 1.2, 1.2, 1.2, 1.6, 1.1, 2, 1.2, 1.2, 1.5]  # scaleFactor
-
     faces_rects = haar_cascade.detectMultiScale(image, scaleFactor=1.2, minNeighbors=5)
 
     face_segments = []
